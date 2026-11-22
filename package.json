@@ -1,0 +1,23 @@
+{
+  "name": "tempo-filler",
+  "version": "0.2.0",
+  "description": "Preview and fill missing workdays in Tempo Timesheets",
+  "type": "module",
+  "bin": {
+    "tempo-filler": "src/cli.js"
+  },
+  "files": [
+    "src/cli.js",
+    "src/tempo.js",
+    "src/store.js",
+    "src/week.js",
+    "src/ui.js",
+    "src/setup.js"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
